@@ -25,6 +25,7 @@ class stImplarr
         }
     }
 
+    //pop operation
     void pop()
     {
         if(top==-1)
@@ -38,6 +39,7 @@ class stImplarr
         }
     }
 
+    //top operation
     int Top()
     {
         if(top==-1)
