@@ -45,7 +45,7 @@ void displayLL(Node* head)
     cout<<"Elements of Linked List are=";
     while(temp!=nullptr)
     {
-        cout<<temp->next<<" ";
+        cout<<temp->data<<" ";
         temp=temp->next;
     }   
 }
@@ -67,6 +67,7 @@ int main()
 {
     int n;
     cout<<"Enter size of array="<<endl;
+    cin>>n;
     int arr[n];
 
     cout<<"Enter elements of array=";
